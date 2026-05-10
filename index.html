@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ANOMALY CONTAINMENT UNIT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+</head>
+<body>
+    <button id="terminal-toggle">[ _TOGGLE_TERMINAL ]</button>
+
+    <div id="status-overlay"></div>
+
+    <div id="ui-layer">
+        <div class="physical-block anomaly">ANOMALY_01</div>
+        <div class="physical-block warning">SYSTEM FAILURE</div>
+        <div class="physical-block data">CORRUPTED_DATA</div>
+        <div class="physical-block core">CORE</div>
+        <div class="physical-block data">ACCESS_DENIED</div>
+    </div>
+
+    <div id="terminal-container">
+        <div class="terminal-header">ANOMALY_OVERRIDE_TERMINAL // WAITING FOR AI LINK</div>
+        
+        <div class="terminal-input-wrapper">
+            <span class="prompt">_></span>
+            <input type="text" id="ai-input" autocomplete="off">
+        </div>
+        
+        <div class="quick-actions">
+            <button class="qa-btn" data-cmd="zero gravity">ZERO-G</button>
+            <button class="qa-btn" data-cmd="simulate moon gravity">MOON GRAVITY</button>
+            <button class="qa-btn" data-cmd="heavy like a rock">ROCK MASS</button>
+            <button class="qa-btn" data-cmd="explode">EXPLODE</button>
+            <button class="qa-btn" data-cmd="turn everything into toys">TOY MODE</button>
+        </div>
+    </div>
+
+    <script src="env.js"></script>
+    <script src="js/physics-world.js"></script>
+    <script src="js/mobile-tilt.js"></script>
+    <script src="js/ai-terminal.js"></script>
+</body>
+</html>
