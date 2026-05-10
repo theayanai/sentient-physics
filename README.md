@@ -21,19 +21,14 @@ A highly experimental, gravity-defying web sandbox where UI elements are treated
 ## 📸 Application Preview  
 <img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/19c80d5b-06e1-4dde-afca-3d3ac2fbaa41" />
 
-
-<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/3e3d1fdc-819c-423d-bb17-0d2c8254004a" />
-
-
-
 ### 🎛️ The Anomaly Sandbox  
-![Sandbox Screenshot](assets/sandbox-screenshot.png)
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/a6983df6-3841-4dfc-92dd-349ce348b21c" />
 - Pure Matter.js 2D physics simulation hidden behind HTML `<div>` elements.  
 - Interactive drag-and-drop mechanics.  
 - DeviceOrientation API integration (Tilt your mobile phone to shift gravity).  
 
 ### 🧠 The God-Mode AI Terminal  
-![Terminal Screenshot](assets/terminal-screenshot.png)
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/527200a0-8e69-4197-82b8-dc461e07369c" />
 - Custom glitch-aesthetic command line interface.  
 - Agentic AI backend: Gemini parses natural language and outputs executable JSON.  
 - Dynamic typing animations and cinematic status overlays.  
